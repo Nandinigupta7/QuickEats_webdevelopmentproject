@@ -1,0 +1,557 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="icon" href="download.png" type="image/icon type">
+<link rel="stylesheet" href="home.css">
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+
+    <!--Header section start-->
+    <header>
+        <a href="#" class="logo"><i class="fa fa-utensils"></i>Quick Eats</a>
+        <nav class="navbar">
+            <a class="active" href="./home.html">Home</a>
+            <a href="#" onclick="openAbout()">About</a>
+            <a href="./contact.html" >Contact Us</a>
+            <a href="#">Orders</a>
+        </nav>
+        <div class="icons">
+            <i class="fas fa-bars" id="menu-bars"></i>
+            <i class="fas fa-search" id="search-icon"></i>
+            <a href="#" class="fas fa-heart"></a>
+            <a href="#" class="fas fa-shopping-cart"></a>
+            <i class="fa fa-user" aria-hidden="true"></i>
+            <a href="login.html" class="fas fa-sign-in-alt"></a>
+        </div>
+    </header>
+    <div class="back">
+    <div class="container1" id="co1">
+        <div class="post">
+            <div class="text">Thanks for Rating us!</div>
+            <div class="edit">Edit</div>
+            <i class="fas fa-times" id="close"></i>
+    
+        </div>
+        <div class="star-widget">
+        <input type="radio" name="rate" id="rate-5">
+        <label for="rate-5" class="fas fa-star"></label>
+        <input type="radio" name="rate" id="rate-4">
+        <label for="rate-4" class="fas fa-star"></label>
+        <input type="radio" name="rate" id="rate-3">
+        <label for="rate-3" class="fas fa-star"></label>
+        <input type="radio" name="rate" id="rate-2">
+        <label for="rate-2" class="fas fa-star"></label>
+        <input type="radio" name="rate" id="rate-1">
+        <label for="rate-1" class="fas fa-star"></label>
+        <form action="#">
+            <i class="fas fa-times" id="close"></i>
+            <h4></h4>
+            <div class="textarea">
+                <textarea cols="30" placeholder="Describe your experience"></textarea>
+    
+            </div>
+            
+            <div class="btn">
+                <button type="submit">Post</button>
+            </div>
+        </form>
+        </div>    
+    </div>
+    </div>
+    <!-- Header section ends-->
+
+    <!--search form-->
+    <form action="" id="search-form">
+        <input type="search" placeholder="search here..." name="" id="search-box">
+        <label for="search-box" class="fas fa-search"></label>
+        <i class="fas fa-times" id="close1"></i>
+    </form>
+    <!--Search Form ends-->
+    
+    <!--Home section start-->
+    <section class="home" id="home-section">
+<!--Add-->
+<div class="add">
+ <div class="add-container">
+ <img src="burger banner.jpg">
+ <div class="textimg"><h2>30% off on your<br> first order</h2>
+ <a href="./ksbakers.html"><button class="ordr">Order Now</button></a></div>
+ 
+ </div>
+</div>
+<!--Add ends-->
+<!--Specials-->
+    <div class="spl">
+        <h2>Our Specials</h2>
+</div>
+<div class="table">
+    <a href="./fishland.html"><img src="manchurian.jpg" height="150"><h4>Veg Manchurian</h4></a>
+    <a href="./dominos.html"><img src="dal tadka.jpeg" height="150"><h4>Dal Tadka</h4></a>
+    <a href="./ramkibandi.html"><img src="veg biryani.jpeg" height="150"><h4>Veg Biryani</h4></a>
+    <a href="./mughal.html"><img src="makhani (1).jpeg" height="150"><h4>Makhani Burst Burger</h4></a>
+    <a href="./hotnspicy.html"><img src="white sauce.jpeg" height="150"><h4>White Sauce Pasta</h4></a>
+    <a href="./hitech.html"><img src="dosa.jpg" height="150"><h4>Masala Dosa</h4></a>
+    <a href="./hoteladaab.html"><img src="gulab jamun.jpg" height="150"><h4>Hot Gulab Jamun</h4></a>
+</div>
+
+<!--Top Restaurants-->
+<div class="top-re">
+    <h2>Top Restaurants</h2>
+</div>
+<div class="table1">
+    <a href="Barbeque.html"><img src="clay.avif" height="150"><h4>Clay Kitchen</h4><p>North Indian, Chinese, Beverages</p></a>
+    <a href="paradise.html"><img src="pyramid.jpeg" height="150"><h4>Pyramid</h4><p>North Indian, Chinese, Desserts</p></a>
+    <a href="hotnspicy.html"><img src="nescafe.jpeg" height="150"><h4>Nescafe Express</h4><p>Cafe, Street Food, Fast Food, Beverages</p></a>
+    <a href="hitech.html"><img src="sagar.jpeg" height="150"><h4>Sagar Ratna</h4><p>South Indian, North Indian, Chinese, Desserts</p></a>
+    <a href="dominos.html"><img src="clove.jpeg" height="150"><h4>Clove 99</h4><p>North Indian, Chinese, Pizza, Fast Food, Beverages, Desserts</p></a>
+    <a href="vantilu.html"><img src="cafe.jpeg" height="150"><h4>Cafe Beings</h4><p>Coffee, Tea, Cafe, Beverages, Pasta, Sandwich, Fast Food</p></a>
+    <a href="mughal.html"><img src="burger.jpeg" height="150"><h4>Burger King</h4><p>Burger, Fast Food, Beverages</p></a>
+</div>
+<div class="container-grocery">
+  <img src="grocery-delivery.png" alt="Norway" style="width:100%;">
+  <div class="text-block">
+    <h2>Anything you need, will be delivered</h2>
+    <p>Get your food at your door step<br>
+    Stay Home and Enjoy our services.</p>
+    <div class="ordergrocery">
+  <a href="https://api.whatsapp.com/send?phone=+919034207706&text=I wanted to order food online" class="orderg" onclick="mygrocery()"><i class="fab fa-whatsapp"></i> Order Now</a>
+  </div>
+  </div>
+  
+</div>
+
+<!--Restaurants-->
+<div class="res">
+    <h2>18 Restaurants</h2>
+    <hr class="line">
+</div>
+<br>
+<section class="barb" id="biryani">
+    <h1 class="barbeque">Restaurants</h1>
+    <hr class="line"> 
+    <div class="box-container">
+    <div class="box">
+        <a href="Barbeque.html"><img src="clay.avif"></a>
+        <h3>Clay Kitchen</h3>
+        <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star-half-alt"></i>
+            <br>
+            <p>North Indian, Chinese, Beverages</p>
+
+        </div>
+        </div>
+        <div class="box">
+        <a href="mehfil.html"><img src="delicious.jpeg"></a>
+        <h3>D'Delicious</h3>
+        <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star-half-alt"></i>
+            <br>
+            <p>Fast Food, Pizza, Chinese, Desserts, Beverages</p>
+
+        </div>
+        </div>
+        <div class="box">
+        <a href="dominos.html"><img src="clove.jpeg"></a>
+        <h3>Clove 99</h3>
+        <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star-half-alt"></i>
+            <br>
+            <p>North Indian, Chinese, Pizza, Fast Food, Beverages, Desserts</p>
+
+        </div>
+        </div>
+        <div class="box">
+        <a href="paradise.html"><img src="pyramid.jpeg"></a>
+        <h3>Pyramid</h3>
+        <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star-half-alt"></i>
+            <br>
+            <p>North Indian, Chinese, Desserts</p>
+
+        </div>
+        </div>
+        <div class="box">
+        <a href="ramkibandi.html"><img src="Sattvik.jpeg"></a>
+        <h3>Sattvik Kitchen</h3>
+        <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star-half-alt"></i>
+            <br>
+            <p>North Indian</p>
+
+        </div>
+        </div>
+        <div class="box">
+        <a href="vantilu.html"><img src="cafe.jpeg"></a>
+        <h3>Cafe Beings</h3>
+        <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star-half-alt"></i>
+            <br><p>Coffee, Tea, Cafe, Beverages, Pasta, Sandwich, Fast Food</p>
+
+        </div>
+        </div>
+        <div class="box">
+        <a href="platform65.html"><img src="chill.jpeg"></a>
+        <h3>Chill 99</h3>
+        <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star-half-alt"></i>
+            <br>
+            <p>Chinese, Italian, North Indian, South Indian, Continental, Street Food</p>
+
+        </div>
+        </div>
+        <div class="box">
+        <a href="hoteladaab.html"><img src="food.jpeg"></a>
+        <h3>Food Court</h3>
+        <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star-half-alt"></i>
+            <br>
+            <p>Kebab, North Indian, Chinese, Desserts, Beverages, Mughlai</p>
+
+        </div>
+        </div>
+        <div class="box">
+        <a href="fishland.html"><img src="dosa.jpg"></a>
+        <h3>The Dosa Point</h3>
+        <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star-half-alt"></i>
+            <br>
+            <p>South Indian, Fast Food</p>
+
+        </div>
+        </div>
+        <div class="box">
+        <a href="hitech.html"><img src="sagar.jpeg"></a>
+        <h3>Sagar Ratna</h3>
+        <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star-half-alt"></i>
+            <br>
+            <p>South Indian, North Indian, Chinese, Desserts</p>
+
+        </div>
+        </div>
+        <div class="box">
+        <a href="hotnspicy.html"><img src="nescafe.jpeg"></a>
+        <h3>Nescafe Express</h3>
+        <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star-half-alt"></i>
+            <br>
+            <p>Cafe, Street Food, Fast Food, Beverages</p>
+
+        </div>
+        </div>
+        <div class="box">
+        <a href="mughal.html"><img src="burger.jpeg"></a>
+        <h3>Burger King</h3>
+        <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star-half-alt"></i>
+            <br>
+            <p>Burger, Fast Food, Beverages</p>
+
+        </div>
+        </div>
+        <div class="box">
+        <a href="usa.html"><img src="Restaurants/usa.jpg"></a>
+        <h3>USA Gardens</h3>
+        <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star-half-alt"></i>
+            <br>
+            <p>North Indian, Mughlai, Chinese, Fast Food, Street Food, Desserts, Beverages</p>
+        </div>
+        </div>
+
+
+        <div class="box">
+        <a href="./ksbakers.html"><img src="sethi.jpeg"></a>
+        <h3>Sethi Snacks Corner</h3>
+        <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star-half-alt"></i>
+            <br>
+            <p>North Indian, Chinese</p>
+        </div>
+        </div>
+
+        <div class="box">
+            <a href="amar.html"><img src="amar.jpeg"></a>
+            <h3>Hotel Amar Palace</h3>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+                <br>
+                <p>North Indian, Chinese, Biryani, Beverages</p>
+            </div>
+            </div>
+
+
+            <div class="box">
+                <a href="tarachand.html"><img src="bhagat.jpeg"></a>
+                <h3>P Bhagat Tarachand</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                    <br>
+                    <p>North Indian, Chinese, Biryani, Desserts</p>
+                </div>
+                </div>
+                <div class="box">
+                    <a href="emporter.html"><img src="emporter.jpeg"></a>
+                    <h3>à Emporter</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                        <br>
+                        <p>Pizza, Burger, Sandwich, Fast Food, Beverages, Coffee</p>
+                    </div>
+                    </div>
+
+                    <div class="box">
+                        <a href="./ksbakers.html"><img src="./Images/Restaurants/mohan.jpg"></a>
+                        <h3>Mohan Bakery</h3>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                            <br>
+                            <p>Bakery, Sandwich, Fast Food, Burger, Beverages, Pizza</p>
+                        </div>
+                        </div>
+        </div>
+        </section>
+    
+
+</section>
+<div id="about" class="about">
+    <a href="#" class="closebtn" onclick="closeNav()">&times;</a>
+    <div class="about-overlay">
+        <h1>About us</h1>
+        <p>Launched in 2025, Our technology platform connects customers,<br> 
+        restaurant partners and delivery partners, serving their multiple needs. <br>
+        Customers use our platform to search and discover restaurants, read and write customer 
+        generated reviews and view and upload photos,<br> order food delivery, book a table and make 
+        payments while dining-out at restaurants. On the other hand,<br> we provide restaurant partners 
+        with industry-specific marketing tools which enable them to engage and acquire customers<br> to 
+        grow their business while also providing a reliable <br>and efficient last mile delivery service. 
+        We also operate a one-stop procurement solution, <br>Hyperpure, which supplies high quality ingredients 
+        and kitchen products to restaurant partners.<br> We also provide our delivery partners with transparent 
+        and flexible earning opportunities.</p>
+    </div>
+</div>
+
+
+
+<!--Footer Section-->
+<footer class="footer">
+    <div class="container">
+        <div class="row">
+            
+            <div class="footer-col">
+                <ul>
+                    <i class="fa fa-utensils"></i>
+                    <span>Quick Eats</span>
+                </ul>
+                <div class="map">
+                    <ul>
+                        <i class="fa fa-map-marker"></i>
+                            <span>Ambala
+                            </span>
+                    </ul>
+                    </div>
+                <div class="mail">
+                    <ul>
+                        <i class="fas fa-inbox"></i>
+                        <span>
+                            mail
+                        </span>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="footer-col">
+                <h4>Quick Eats</h4>
+                <ul>
+                    <li><a href="#" onclick="openAbout()">about us</a></li>
+                    <li><a href="#">Our services</a></li>
+                    <li><a href="#">Privacy policy</a></li>
+                    <li><a href="#">Payment policy</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>Get help</h4>
+                <ul>
+                    <li><a href="#">FAQ</a></li>
+                    <li><a href="#">Delivery</a></li>
+                    <li><a href="#">My orders</a></li>
+                    <li><a href="#">Order Status</a></li>
+                    <li><a href="#">Payment options</a></li>
+
+                </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Order Now</h4>
+                    <ul>
+                        <li><a href="./dishes.html">Biryani's</a></li>
+                        <li><a href="./dishes.html">Restaurants</a></li>
+                        <li><a href="./dishes.html">Starters</a></li>
+                        <li><a href="./dishes.html">Fast food</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Follow us</h4>
+                    <div class="social-links">
+                        <ul>
+                       <li><a href="https://x.com/i/flow/login?input_flow_">
+                            <i class="fab fa-twitter"></i></a></li>
+                        <li><a href="https://www.instagram.com/">
+                            <i class="fa-brands fa-instagram"></i></a></li>
+                        </ul>
+                    </div>
+
+                </div>
+
+            </div>
+            </div>
+            
+
+</footer>
+
+<!--Home  ends-->
+
+    
+
+    <!--Java Script-->
+    <script>
+        let menu = document.querySelector('#menu-bars');
+        let navbar = document.querySelector('.navbar');
+        
+        menu.onclick = () => {
+            menu.classList.toggle('fa-times');
+            navbar.classList.toggle('active');
+        }
+        window.onscroll=() => {
+            menu.classList.remove('fa-times');
+            navbar.classList.remove('active');
+        }
+        document.querySelector('#search-icon').onclick=() => {
+            document.querySelector('#search-form').classList.toggle('active');
+        }
+        document.querySelector('#close1').onclick=() => {
+            document.querySelector('#search-form').classList.toggle('active');
+        }
+        document.querySelector("#feedback").onclick=() =>{
+        document.querySelector("#co1").classList.toggle("active");
+    }
+        document.querySelector("#close").onclick=() =>{
+        document.querySelector("#co1").classList.toggle("active");
+    }
+    var preloader = document.getElementById("loading");
+    function myload() {
+        preloader.style.display="none";
+    }
+
+
+        const btn = document.querySelector("button");
+        const post = document.querySelector(".post");
+        const widget = document.querySelector(".star-widget");
+        const editBtn = document.querySelector(".edit");
+    
+        btn.onclick = () =>{
+        widget.style.display = "none";
+        post.style.display = "block";
+        editBtn.onclick = () =>{
+            widget.style.display = "block";
+            post.style.display = "none";
+        }
+        return false;
+    }
+    function openAbout(){
+        document.getElementById("about").style.width = "100%";
+
+    }
+    function closeNav(){
+        document.getElementById("about").style.width = "0%";
+    }
+    var preloader = document.getElementById("loader");
+    
+    function myloader(){
+        preloader.style.display = "none";
+    }
+    function mygrocery(){
+        confirm("Order Now on Whatsapp click ok to continue");
+    }
+    </script>
+    
+    <!--JavaScript ends -->
+
+</body>
+</html>

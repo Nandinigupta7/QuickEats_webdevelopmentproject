@@ -1,0 +1,64 @@
+body {
+        font-family: Helvetica, Arial, sans-serif; /* Use Helvetica as primary font */
+    
+        background-image: url(https://img.freepik.com/premium-photo/top-view-wooden-table-food-background_758367-6365.jpg);
+        background-repeat: NO-REPEAT;
+        background-size: COVER;
+    color: #003366; /* Deep blue font color */
+    text-align: center;
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    height: 100vh; /* Full viewport height */
+    margin: 0; /* Remove default margin */
+}
+
+
+.heading{
+    color: black;
+    font-weight: bolder;
+    font-size: xx-large;
+}
+
+.container {
+    width: 300px;
+    padding: 20px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    color: #003366; /* Deep blue color for the heading */
+    font-weight: bold;
+}
+
+input {
+    width: 90%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #003366; /* Deep blue border color */
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #e2f3f4; /* Platinum button background */
+    border: none;
+    color: #003366; /* Deep blue font color for the button */
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #e2f3f4; /* Platinum background stays the same */
+    color: #003366; /* Deep blue text color on hover */
+}
+
+.error {
+    color: red;
+    font-size: 14px;
+}
